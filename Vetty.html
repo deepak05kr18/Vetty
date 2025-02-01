@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jira Board</title>
+    <style>
+        /* Center the h1 and add some space */
+        body {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        /* Position button on the rightmost side */
+        #addListButton {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+        }
+
+        /* Board layout and card styles */
+        #board {
+            display: flex;
+            padding-top: 60px; /* To give space for button */
+            justify-content: space-between;
+            gap: 10px;
+        }
+        
+        .list {
+            border: 1px solid #ccc;
+            width: 300px;
+            margin: 10px;
+            padding: 10px;
+        }
+        .card {
+            border: 1px solid #ccc;
+            margin: 5px 0;
+            padding: 5px;
+            background-color: #f9f9f9;
+        }
+        .card button {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="heading">Jira Board (Vetty Assignment)</h1>
+    <button id="addListButton">ADD LIST</button>
+    <div id="board"></div>
+    
+
+    <script src="Vetty.js"></script>
+</body>
+</html>
