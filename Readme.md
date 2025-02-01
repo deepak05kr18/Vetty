@@ -25,7 +25,7 @@ This is a simple **Jira-like board** built with **JavaScript** for managing task
    You can clone this project from the repository 
 
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/deepak05kr18/Vetty
 
 
 
